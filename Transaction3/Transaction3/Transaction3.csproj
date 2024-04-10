@@ -901,6 +901,7 @@
     <Content Include="Resources\Transacion Analysis.rdl" />
     <Content Include="Resources\sales-order-detail.rdl" />
     <Content Include="Resources\Transaction Analysisddl.rdl" />
+    <Content Include="Resources\InvoiceTransaction.rdl" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\CodeMirror\addon\comment\comment.js" />
     <Content Include="Scripts\CodeMirror\addon\comment\continuecomment.js" />
@@ -1338,6 +1339,7 @@
     <Content Include="Views\Shared\_PartialView.cshtml" />
     <Content Include="Views\Home\Transaction.cshtml" />
     <Content Include="Views\Home\See.cshtml" />
+    <Content Include="Views\Home\InvoiceTransaction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

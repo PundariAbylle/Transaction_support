@@ -1,33 +1,4 @@
-﻿<!--@{
-    ViewBag.Title = "Display Report";
-}
-
-<h2>Display Report</h2>
-
-<div>
-    Report Path: @ViewBag.ReportPath-->
-<!-- Render your report viewer component here -->
-<!--<select id="reportSelector">
-        <option value="Transaction">Transaction</option>
-        <option value="sales">Sales</option>
-    </select>
-
-</div>
-
-
-<script>
-    $(document).ready(function() {
-        $('#reportSelector').change(function() {
-            var selectedValue = $(this).val();
-            if (selectedValue === 'Transaction') {
-                window.location.href = '@Url.Action("TransactionPage", "Home")'; // Change "Home" to the appropriate controller
-            } else if (selectedValue === 'sales') {
-                window.location.href = '@Url.Action("SalesPage", "Home")'; // Change "Home" to the appropriate controller
-            }
-        });
-    });
-</script>-->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
     <html>
     <head>
         <title>Select Report</title>
@@ -66,6 +37,7 @@
             <option value="Transaction">Transaction</option>
             <option value="sales">Sales</option>
             <option value="See">See</option>
+            <option value="InvoiceTransaction">InvoiceTransaction</option>
         </select>
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -83,6 +55,9 @@
                     }
                     if (selectedValue === 'sales') {
                         window.location.href = '/Home/Sales';
+                    }
+                    if (selectedValue === 'InvoiceTransaction') {
+                        window.location.href = '/Home/InvoiceTransaction';
                     }
                 });
             });
