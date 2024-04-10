@@ -1,0 +1,150 @@
+﻿<!--@{
+    ViewBag.Title = "Display Report";
+}
+
+<h2>Display Report</h2>
+
+<div>
+    Report Path: @ViewBag.ReportPath-->
+<!-- Render your report viewer component here -->
+<!--<select id="reportSelector">
+        <option value="Transaction">Transaction</option>
+        <option value="sales">Sales</option>
+    </select>
+
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        $('#reportSelector').change(function() {
+            var selectedValue = $(this).val();
+            if (selectedValue === 'Transaction') {
+                window.location.href = '@Url.Action("TransactionPage", "Home")'; // Change "Home" to the appropriate controller
+            } else if (selectedValue === 'sales') {
+                window.location.href = '@Url.Action("SalesPage", "Home")'; // Change "Home" to the appropriate controller
+            }
+        });
+    });
+</script>-->
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Select Report</title>
+        <style>
+            /* Style for the select element */
+            #reportSelector {
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                color: #333;
+                cursor: pointer;
+            }
+
+                /* Style for the options */
+                #reportSelector option {
+                    padding: 10px;
+                    font-size: 16px;
+                    background-color: #fff;
+                    color: #333;
+                }
+
+                    /* Style for the hover effect */
+                    #reportSelector option:hover {
+                        background-color: #f0f0f0;
+                    }
+
+                    /* Style for the selected option */
+                    #reportSelector option:checked {
+                        background-color: #007bff;
+                        color: #fff;
+                    }
+        </style>
+    </head>
+    <body>
+        <select id="reportSelector">
+            <option value="select">Select</option>
+            <option value="Transaction">Transaction</option>
+            <option value="sales">Sales</option>
+            <option value="see">See</option>
+        </select>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#reportSelector').change(function () {
+                    var selectedValue = $(this).val();
+                    if (selectedValue === 'Transaction') {
+                        window.location.href = '/Home/Transaction';
+                    } else if (selectedValue === 'sales' || selectedValue === 'see') {
+                        window.location.href = '/Home/Sales';
+                    }
+                });
+            });
+        </script>
+    </body>
+    </html>
+
+<!--@{
+    Layout = null; // Assuming you don't want to use any layout for this page
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reports</title>-->
+    <!-- Include CSS and JavaScript dependencies for ReportViewer -->
+<!--</head>
+<body>-->
+    <!-- Your existing HTML content goes here -->
+
+    <!--<select id="reportSelector">
+        <option value="">Select...</option>--> <!-- Default option to prompt selection -->
+        <!--<option value="Transaction">Transaction</option>
+        <option value="sales">Sales</option>
+    </select>
+
+    <div id="reportViewerContainer">-->
+        <!-- ReportViewer will be rendered here -->
+    <!--</div>-->
+
+    <!-- Include jQuery -->
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#reportSelector').change(function () {
+                var selectedValue = $(this).val();
+
+                // Check if a valid option is selected
+                if (selectedValue) {
+                    var reportPath = '';
+
+                    // Determine the report path based on the selected value
+                    if (selectedValue === 'Transaction') {
+                        reportPath = 'Transacion Analysis.rdl';
+                    } else if (selectedValue === 'sales') {
+                        reportPath = 'sales-order-detail.rdl';
+                    }
+
+                    // Set the report path dynamically based on the selected value
+                    var reportPath = '~/Resources/' + reportPath;
+
+                    // Initialize or update ReportViewer with the new report path
+                    $('#reportViewerContainer').boldReportViewer({
+                        reportServiceUrl: '/api/ReportViewer',
+                        processingMode: 'Remote',
+                        reportPath: reportPath,
+                        // Other options can be added here
+                    });
+                } else {
+                    // No option selected, do nothing or show an error message
+                    console.log('Please select a valid option.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>-->

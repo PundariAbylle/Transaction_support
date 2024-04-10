@@ -1,0 +1,17 @@
+﻿@{
+    string aaa = "";
+
+    if (aaa == "Transaction")
+    {
+        aaa = "Transacion Analysis.rdl";
+    }
+    else if (aaa == "sales")
+    {
+        aaa = "sales-order-detail.rdl";
+    }
+}
+
+@(Html.Bold().ReportViewer("viewer")
+    .ReportServiceUrl("/api/ReportViewer")
+    .ReportPath("~/Resources/" + aaa) 
+)

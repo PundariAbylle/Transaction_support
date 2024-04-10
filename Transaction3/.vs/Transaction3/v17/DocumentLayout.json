@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My repo\\Support_Tool\\Transaction3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|d:\\my repo\\support_tool\\transaction3\\transaction3\\views\\home\\displayreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\views\\home\\displayreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\views\\home\\see.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\views\\home\\see.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\views\\home\\transaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\views\\home\\transaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\views\\home\\sales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\views\\home\\sales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|D:\\My repo\\Support_Tool\\Transaction3\\transaction3\\controllers\\reportviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474611D6-5FD6-4A6B-BA3E-EF0559143C69}|Transaction3\\Transaction3.csproj|solutionrelative:transaction3\\controllers\\reportviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "See.cshtml",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\See.cshtml",
+              "RelativeDocumentMoniker": "Transaction3\\Views\\Home\\See.cshtml",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\See.cshtml",
+              "RelativeToolTip": "Transaction3\\Views\\Home\\See.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T09:23:35.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Transaction3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Transaction3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwDcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:21:04.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transaction.cshtml",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\Transaction.cshtml",
+              "RelativeDocumentMoniker": "Transaction3\\Views\\Home\\Transaction.cshtml",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\Transaction.cshtml",
+              "RelativeToolTip": "Transaction3\\Views\\Home\\Transaction.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T09:18:26.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sales.cshtml",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\Sales.cshtml",
+              "RelativeDocumentMoniker": "Transaction3\\Views\\Home\\Sales.cshtml",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\Sales.cshtml",
+              "RelativeToolTip": "Transaction3\\Views\\Home\\Sales.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T09:18:22.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DisplayReport.cshtml",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\DisplayReport.cshtml",
+              "RelativeDocumentMoniker": "Transaction3\\Views\\Home\\DisplayReport.cshtml",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Views\\Home\\DisplayReport.cshtml",
+              "RelativeToolTip": "Transaction3\\Views\\Home\\DisplayReport.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T09:16:27.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Transaction3\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Transaction3\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:15:50.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportViewerController.cs",
+              "DocumentMoniker": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Controllers\\ReportViewerController.cs",
+              "RelativeDocumentMoniker": "Transaction3\\Controllers\\ReportViewerController.cs",
+              "ToolTip": "D:\\My repo\\Support_Tool\\Transaction3\\Transaction3\\Controllers\\ReportViewerController.cs",
+              "RelativeToolTip": "Transaction3\\Controllers\\ReportViewerController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:15:40.788Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
