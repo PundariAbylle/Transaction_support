@@ -57,9 +57,8 @@ namespace Transaction3.Controllers
         {
             return View();
         }
-        public ActionResult InvoiceTransaction()
-        {
-            return View();
-        }
+      
+
+      
     }
 }

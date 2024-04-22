@@ -34,10 +34,10 @@
     <body>
         <select id="reportSelector">
             <option value="select">Select</option>
-            <option value="Transaction">Transaction</option>
             <option value="sales">Sales</option>
-            <option value="See">See</option>
             <option value="InvoiceTransaction">InvoiceTransaction</option>
+            <option value="SubReport">SubReport</option>
+            <option value="Dashboard">Dashboard</option>
         </select>
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -45,19 +45,18 @@
             $(document).ready(function () {
                 $('#reportSelector').change(function () {
                     var selectedValue = $(this).val();
-                    if (selectedValue === 'Transaction') {
-                        window.location.href = '/Home/Transaction';
 
-                    }
-                    if (selectedValue === 'See') {
-                        window.location.href = '/Home/See';
-
-                    }
                     if (selectedValue === 'sales') {
-                        window.location.href = '/Home/Sales';
+                        window.location.href = '/Sales/Sales';
                     }
                     if (selectedValue === 'InvoiceTransaction') {
-                        window.location.href = '/Home/InvoiceTransaction';
+                        window.location.href = '/TransactionAnalysis/InvoiceTransaction';
+                    }
+                    if (selectedValue === 'SubReport') {
+                        window.location.href = '/SubReportABP/SubReportABP';
+                    }
+                    if (selectedValue === 'Dashboard') {
+                        window.location.href = '/Dashboard/Dashboard';
                     }
                 });
             });
@@ -66,7 +65,7 @@
     </html>
 
 <!--@{
-    Layout = null; // Assuming you don't want to use any layout for this page
+    Layout = null;
 }
 
 <!DOCTYPE html>

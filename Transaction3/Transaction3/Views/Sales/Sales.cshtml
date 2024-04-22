@@ -1,9 +1,8 @@
-﻿
-@{
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @(Html.Bold().ReportViewer("viewer")
     .ReportServiceUrl("/api/ReportViewer")
-    .ReportPath("~/Resources/Transacion Analysis.rdl")
+    .ReportPath("~/Resources/sales-order-detail.rdl")
 )

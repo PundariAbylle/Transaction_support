@@ -36,6 +36,6 @@ namespace Transaction3.Controllers
             //You can update report options here
         }
 
-       
+
     }
 }
